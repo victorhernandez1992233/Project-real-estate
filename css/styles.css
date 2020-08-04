@@ -1,3 +1,41 @@
-#site-header{
-    background-color: blue;
+/*Globales*/
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/*HEADER*/
+.site-header.inicio {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 600px;    
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+}
+
+/*Navegacion a indica el grupo de etiquetas a las que le aplicaremos estilo*/
+.navegacion a {
+color: rgb(255, 255, 255, .3); 
+text-decoration: none;
+font-size: 18px;
+margin-right: 20px;
+}
+
+/*cuando no situamos sobre un texto cambie de color */
+.navegacion a:hover {
+color: #71B100;
+}
+
+/*se le aplicara solo a la ultima etiqueta*/
+.navegacion a:last-of-type{
+    margin-right: 0px;
 }
